@@ -1,2 +1,2 @@
-# data_analysys_lecture
+# Data Analysiys Laboratory
 Laboratory of data analysys for high school students
