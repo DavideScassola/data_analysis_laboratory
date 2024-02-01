@@ -1,0 +1,32 @@
+https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/whiteside.html
+https://search.r-project.org/CRAN/refmans/MPV/html/gasdata.html
+
+This data frame contains the average monthly volume of natural gas used in the furnace of a 1600 square foot house located in London, Ontario, for each month from 2006 until 2011. It also contains the average temperature for each month, and a measure of degree days. Insulation was added to the roof on one occasions, the walls were insulated on a second occasion, and the mid-efficiency furnace was replaced with a high-efficiency furnace on a third occasion.
+
+
+La tabella sembra corrispondere alla descrizione:
+- Ogni riga contiene delle misurazioni riguardanti un certo mese dell'anno, apparentemente da Luglio 2005 ad Aprile 2011. In totale abbiamo 70 righe (osservazioni)
+- Per ogni mese sappiamo il consumo totale di gas in metri cubi (*cubicmetres*), la media giornaliera (*dailyusage*) e la temperatura media esterna (*temp*)
+- Le ultime 3 colonne invece ci dicono che tipo di intervento di efficientamento energetico è stato fatto (*roof_insulation*, *wall_insulation*, *high_efficiency_furnace*). Queste colonne non contengono veramente dei numeri, hanno solo due opzioni: '0' e '1' che indicano se la casa ha (1) o no (0) la caratteristica indicata dalla colonna. 
+
+
+
+
+# Quanto sono stati utili gli efficientamenti energetici?
+    # vediamo che dati abbiamo a disposizione
+        # quali
+        # quanti
+        
+    # vedere consumo annuo prima/dopo?
+        # quanti anni abbiamo?
+        # sommare per anno?
+        # confrontare mese per mese?
+        
+    # vedere consumo annuo prima/dopo?
+        # quanti anni abbiamo?
+        # sommare per anno?
+        # confrontare mese per mese?
+        
+    # Possiamo predire il consumo di gas?
+        # senza considerare l'efficientamento
+        # considerando l'efficientamento
