@@ -1,6 +1,9 @@
 https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/whiteside.html
 https://search.r-project.org/CRAN/refmans/MPV/html/gasdata.html
 
+LINK_GASDATA = 'https://www.dropbox.com/scl/fi/plnv6zacnm5i463hswdsk/gasdata.csv?rlkey=21zubn1z3g004y4rtupljx3g9&dl=1'
+
+
 This data frame contains the average monthly volume of natural gas used in the furnace of a 1600 square foot house located in London, Ontario, for each month from 2006 until 2011. It also contains the average temperature for each month, and a measure of degree days. Insulation was added to the roof on one occasions, the walls were insulated on a second occasion, and the mid-efficiency furnace was replaced with a high-efficiency furnace on a third occasion.
 
 
